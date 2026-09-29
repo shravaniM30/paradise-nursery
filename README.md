@@ -1,16 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Paradise Nursery Shopping Application
 
-Currently, two official plugins are available:
+A plant shopping web application built using React, Redux Toolkit, and React Router.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Browse plants across three categories.
+- View plant names, images, and prices.
+- Add plants to the shopping cart.
+- Increase or decrease plant quantities.
+- Remove items from the cart.
+- View individual and total prices.
+- Navigate between Home, Plants, and Cart pages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+- React
+- JavaScript
+- Redux Toolkit
+- React Redux
+- React Router
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to Run
+
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the application using `npm run dev`.
